@@ -1,4 +1,4 @@
-# Data Science Hacks
+# Data Science Hacks, Tips and Tricks
 Data Science Hacks is created and maintained by Analytics Vidhya for the data science community. 
 
 It includes a variety of tips, tricks and hacks related to data science, machine learning 
@@ -7,6 +7,7 @@ These Hacks are for all the data scientists out there. It doesn’t matter if yo
 
 Feel free to contribute your own data science hacks here. Make sure that your hack follows the contribution guidelines
 
+> This repository is part of the free course by [Analytics Vidhya](https://www.analyticsvidhya.com/). To learn more of such awesome hacks visit [Data Science Hacks, Tips and Tricks](https://courses.analyticsvidhya.com/courses/data-science-hacks-tips-and-tricks)
 
 - ### Data Science Hack #1 - Resource Downloader 
 How can you extract image data directly from chrome in one click?
@@ -101,7 +102,36 @@ Ofcourse it'll be first five rows of your dataframe. Can we get output of both t
 You can do it using InteractiveShell.
 
 - ### Data Science Hack #22 Python tqdm
-Most of you have heard about the library #tqdm and you might be using it track the progress of forever running for loops. Most of the times we write complex functions having nested for loops. #tqdm allows tracking that too. Here is how you can track the nested loops using tdqm in python.
+Most of you have heard about the library tqdm and you might be using it track the progress of forever running for loops. Most of the times we write complex functions having nested for loops. #tqdm allows tracking that too. Here is how you can track the nested loops using tdqm in python.
 
 - ### [Data Science Hack #23 Image Augmentation](./Code/Image%20Augmentation%20-%20Article%20Shoot.ipynb)
-Deeplearning models usually require a lot of #data for training. But acquiring massive amounts of data comes with its own challenges. Instead of spending days manually collecting data, you can make use of Image Augmentation techniques. It is the process of generating new images. These new images are generated using the existing training images and hence we don’t have to collect them manually.
+Deeplearning models usually require a lot of data for training. But acquiring massive amounts of data comes with its own challenges. Instead of spending days manually collecting data, you can make use of Image Augmentation techniques. It is the process of generating new images. These new images are generated using the existing training images and hence we don’t have to collect them manually.
+
+- ### Data Science Hack #23 Setup Dark Jupyter Notebook Theme
+[jupyter-themes](https://github.com/dunovank/jupyter-themes) provides an easy way to change theme, fonts and much more in your jupyter notebook. 
+
+Steps - 
+
+1. Install jupyter-themes -
+   - using anaconda <p><code>conda install -c conda-forge jupyterthemes</code></p>
+   - using pip <p><code>pip install jupyterthemes</code></p>
+2. Check list of themes - <p><code> jt - l</code></p>
+3. Select a theme <p><code>jt -t chesterish</code></p>
+4. To restore to default theme - <p><code>jt -r</code></p> 
+
+- ### Data Science Hack #24 Change cell width in jupyter notebook
+To do this we use jupyter-themes, it provides an easy way to change theme, fonts and much more in your jupyter notebook.
+
+Steps -
+1. Install jupyter-themes -
+   - using anaconda <p><code>conda install -c conda-forge jupyterthemes</code></p>
+   - using pip <p><code>conda install -c pip install jupyterthemes</code></p>
+
+2. Change the theme, cell width, cell height <p><code>jt -t chesterish -cellw 100% lineh 170</code></p>
+
+- ### [Data Science Hack #24 parse_dates in read_csv() to change data type to datetime](./Code/read_csv_ParseDate.ipynb)
+What do you do when you need to change the data type of a column to DateTime? We can do this directly at the time of reading data using parse_dates argument.
+
+- ### Data Science Hack 25 Share jupyter notebook using nbviewer
+You can share your jupyter notebook with non-programmers very easily and the best way to do it is by using [jupyter nbviewer](https://nbviewer.jupyter.org/).
+Pro tip - You can use [Binder](https://mybinder.org/) to execute the code from nbviewer on your machine!
