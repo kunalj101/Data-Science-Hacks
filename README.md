@@ -107,7 +107,7 @@ Most of you have heard about the library tqdm and you might be using it track th
 - ### [Data Science Hack #23 Image Augmentation](./Code/Image%20Augmentation%20-%20Article%20Shoot.ipynb)
 Deeplearning models usually require a lot of data for training. But acquiring massive amounts of data comes with its own challenges. Instead of spending days manually collecting data, you can make use of Image Augmentation techniques. It is the process of generating new images. These new images are generated using the existing training images and hence we don’t have to collect them manually.
 
-- ### Data Science Hack #23 Setup Dark Jupyter Notebook Theme
+- ### Data Science Hack #24 Setup Dark Jupyter Notebook Theme
 [jupyter-themes](https://github.com/dunovank/jupyter-themes) provides an easy way to change theme, fonts and much more in your jupyter notebook. 
 
 Steps - 
@@ -119,7 +119,7 @@ Steps -
 3. Select a theme <p><code>jt -t chesterish</code></p>
 4. To restore to default theme - <p><code>jt -r</code></p> 
 
-- ### Data Science Hack #24 Change cell width in jupyter notebook
+- ### Data Science Hack #25 Change cell width in jupyter notebook
 To do this we use jupyter-themes, it provides an easy way to change theme, fonts and much more in your jupyter notebook.
 
 Steps -
@@ -129,9 +129,9 @@ Steps -
 
 2. Change the theme, cell width, cell height <p><code>jt -t chesterish -cellw 100% lineh 170</code></p>
 
-- ### [Data Science Hack #24 parse_dates in read_csv() to change data type to datetime](./Code/read_csv_ParseDate.ipynb)
+- ### [Data Science Hack #26 parse_dates in read_csv() to change data type to datetime](./Code/read_csv_ParseDate.ipynb)
 What do you do when you need to change the data type of a column to DateTime? We can do this directly at the time of reading data using parse_dates argument.
 
-- ### Data Science Hack 25 Share jupyter notebook using nbviewer
+- ### Data Science Hack 27 Share jupyter notebook using nbviewer
 You can share your jupyter notebook with non-programmers very easily and the best way to do it is by using [jupyter nbviewer](https://nbviewer.jupyter.org/).
 Pro tip - You can use [Binder](https://mybinder.org/) to execute the code from nbviewer on your machine!
