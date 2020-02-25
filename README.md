@@ -129,9 +129,27 @@ Steps -
 
 2. Change the theme, cell width, cell height <p><code>jt -t chesterish -cellw 100% lineh 170</code></p>
 
-- ### [Data Science Hack #26 parse_dates in read_csv() to change data type to datetime](./Code/read_csv_ParseDate.ipynb)
+- ### [Data Science Hack #26 Parse_dates in read_csv() to change data type to datetime](./Code/read_csv_ParseDate.ipynb)
 What do you do when you need to change the data type of a column to DateTime? We can do this directly at the time of reading data using parse_dates argument.
 
 - ### Data Science Hack 27 Share jupyter notebook using nbviewer
 You can share your jupyter notebook with non-programmers very easily and the best way to do it is by using [jupyter nbviewer](https://nbviewer.jupyter.org/).
 Pro tip - You can use [Binder](https://mybinder.org/) to execute the code from nbviewer on your machine!
+
+- ### [Data Science Hack #28 Plotting Decision Tree](./Code/Decision%20Tree%20Plot.ipynb)
+Do you know how to plot a decision tree in just 1 line of code? 
+Sklearn provides a simple function plot_tree() to do this task. You can tweak the hyperparameters as per your requirements.
+
+- ### [Data Science Hack #29 Invert Dictionary](./Code/invert_dictionary.ipynb)
+Do you know how you can invert a dictionary in python?
+Dictionary is a collection which is unordered, changeable and indexed.  It is widely used in day to day programming, and machine learning tasks.
+
+- ### [Data Science Hack #30 Interactive plots using plotly](/Code/interactive%20plot%20-%20plotly.ipynb)
+[Cufflinks](https://plot.ly/python/v3/ipython-notebooks/cufflinks/) binds plotly directly to pandas dataframes! Therefore you can make interactive charts without any hassle or long codes.
+
+- ### [Data Science Hack #31 Write python file directly from jupyter notebook cell](./Code/write%20python%20script.ipynb)
+This hack is about saving contents of a cell to a .py file using the magic command %%writefile and then running the file in another jupyter notebook using the magic command [%run](./Code/run%20python%20script.ipynb)
+
+- ### [Data Science Hack #32 Pretty-print Data structures](./Code/pretty%20print.ipynb)
+Are you getting confused while printing some of the data structures? Worry not, it is very common. 
+[pretty-print](https://docs.python.org/3/library/pprint.html) module provides an easy way to print the data structures in a visually pleasing way!
