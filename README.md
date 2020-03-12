@@ -153,3 +153,6 @@ This hack is about saving contents of a cell to a .py file using the magic comma
 - ### [Data Science Hack #32 Pretty-print Data structures](./Code/pretty%20print.ipynb)
 Are you getting confused while printing some of the data structures? Worry not, it is very common. 
 [pretty-print](https://docs.python.org/3/library/pprint.html) module provides an easy way to print the data structures in a visually pleasing way!
+
+- ### [Data Science Hack #33 Date Parser](./Code/Date%20Parser.ipynb)
+This code allows you to convert date of any format into a specified format
