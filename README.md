@@ -156,3 +156,25 @@ Are you getting confused while printing some of the data structures? Worry not, 
 
 - ### [Data Science Hack #33 Date Parser](./Code/Date%20Parser.ipynb)
 This code allows you to convert date of any format into a specified format
+
+- ### [Data Science Hack #34 Feature Selection using SelectFromModel](./Code/FeatureSelection_SelectFromModel.ipynb)
+One of the ways to perform feature selection is by using feature_importance_ attribute of the base estimators. Using SelectFromModel function you can specify the estimator and the threshold for feature_importance_, This hack uses 'mean' as the threshold. You can tweak the threshold to get optimum results. To learn more visit the [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html#sklearn.feature_selection.SelectFromModel)
+
+- ### [Data Science Hack #35 Convert Strings into Characters](./Code/convert_string_to_characters.ipynb)
+What could be the easiest way to convert a string to characters?
+Here is a simple hack which comes in handy while working with text data
+ 
+- ### [Data Science Hack #36 Resize Image Size](./Code/Resizing%20images.ipynb)
+While building an image classification model using deep learning, it is required that all the images should be of same size. However, as the data comes from different sources, images may have different shapes. So, to convert them to same shape, we can use the resize function from open cv. This hack will will help you convert the images of any shape to a specified shape.
+
+- ### [Data Science Hack #37 Apply pandas in parallel](./Code/pandarellel.ipynb)
+Does it take time to perform operations on your pandas dataframe? [Pandarallel](https://github.com/nalepae/pandarallel) is a simple and efficient tool to parallelize Pandas operations on all your available CPUs!
+
+- ### [Data Science Hack #38 Generator Expressions vs List comprehension](./Code/generator%20vs%20list.ipynb)
+The generator yields one item at a time and generates them only when in demand. Generators are much more memory efficient. This hack compares generator expressions with list comprehensions.
+
+- ### Data Science Hack #39 Test your Regex
+Do you avoid regex because they are hard to read and write as well as tricky to get right? This hack helps you get your regex correct.
+[regex101](https://regex101.com/) is an online regex tester, debugger with highlighting for PHP, PCRE, Python, Golang and JavaScript
+
+
