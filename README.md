@@ -5,7 +5,7 @@ It includes a variety of tips, tricks and hacks related to data science, machine
 
 These Hacks are for all the data scientists out there. It doesn’t matter if you are a beginner or an advanced professional, these hacks will definitely make you efficient!
 
-Feel free to contribute your own data science hacks here. Make sure that your hack follows the contribution guidelines
+Feel free to contribute your own data science hacks here. Make sure that your hack follows the [contribution guidelines](/CONTRIBUTING.md)
 
 > This repository is part of the free course by [Analytics Vidhya](https://www.analyticsvidhya.com/). To learn more of such awesome hacks visit [Data Science Hacks, Tips and Tricks](https://courses.analyticsvidhya.com/courses/data-science-hacks-tips-and-tricks)
 
