@@ -179,3 +179,6 @@ Do you avoid regex because they are hard to read and write as well as tricky to 
 
 - ### [Data Science Hack #40 Convert List of Lists to List](./Code/list_of_lists_to_list.ipynb)
 Convert a list of lists into a single list
+
+- ### [Data Science Hack #41 Hide Print Statements](./Code/hide_print.ipynb)
+Hide print statements in specific parts of the program
