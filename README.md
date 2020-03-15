@@ -182,3 +182,6 @@ Convert a list of lists into a single list
 
 - ### [Data Science Hack #41 Hide Print Statements](./Code/hide_print.ipynb)
 Hide print statements in specific parts of the program
+
+- ### [Data Science Hack #42 Split PDF Document page-wise](./Code/split_pdf_pages.ipynb)
+Split a PDF document into multiple pages
