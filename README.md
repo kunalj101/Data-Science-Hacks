@@ -185,3 +185,6 @@ Hide print statements in specific parts of the program
 
 - ### [Data Science Hack #42 Split PDF Document page-wise](./Code/split_pdf_pages.ipynb)
 Split a PDF document into multiple pages
+
+- ### [Data Science Hack #42 Merge PDF Documents](./Code/merge_pdf.ipynb)
+Merge multiple PDF documents into a single PDF
