@@ -177,4 +177,5 @@ The generator yields one item at a time and generates them only when in demand. 
 Do you avoid regex because they are hard to read and write as well as tricky to get right? This hack helps you get your regex correct.
 [regex101](https://regex101.com/) is an online regex tester, debugger with highlighting for PHP, PCRE, Python, Golang and JavaScript
 
-
+- ### [Data Science Hack #40 Convert List of Lists to List](./Code/list_of_lists_to_list.ipynb)
+Convert a list of lists into a single list
