@@ -155,7 +155,7 @@ Are you getting confused while printing some of the data structures? Worry not, 
 [pretty-print](https://docs.python.org/3/library/pprint.html) module provides an easy way to print the data structures in a visually pleasing way!
 
 - ### [Data Science Hack #33 Date Parser](./Code/Date%20Parser.ipynb)
-This code allows you to convert date of any format into a specified format
+This code allows you to convert date of any format into a specified format. Many times, we receive dates of various formats in our data. This hack will help you to convert all those formats into a specified format.
 
 - ### [Data Science Hack #34 Feature Selection using SelectFromModel](./Code/FeatureSelection_SelectFromModel.ipynb)
 One of the ways to perform feature selection is by using feature_importance_ attribute of the base estimators. Using SelectFromModel function you can specify the estimator and the threshold for feature_importance_, This hack uses 'mean' as the threshold. You can tweak the threshold to get optimum results. To learn more visit the [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html#sklearn.feature_selection.SelectFromModel)
@@ -178,13 +178,13 @@ Do you avoid regex because they are hard to read and write as well as tricky to 
 [regex101](https://regex101.com/) is an online regex tester, debugger with highlighting for PHP, PCRE, Python, Golang and JavaScript
 
 - ### [Data Science Hack #40 Convert List of Lists to List](./Code/list_of_lists_to_list.ipynb)
-Convert a list of lists into a single list
+Sometimes the data can be in the form of nested list. For example, the data can be date-wise transaction records for a particular product. However, you might need only in a single dimension. This hack will help you to flatten the list of lists into a single list.
 
 - ### [Data Science Hack #41 Hide Print Statements](./Code/hide_print.ipynb)
-Hide print statements in specific parts of the program
+We often use print statements for debugging purposes. This hack will help you to turn off print statements in a particular section of the code so that it will make debugging easier.
 
 - ### [Data Science Hack #42 Split PDF Document page-wise](./Code/split_pdf_pages.ipynb)
-Split a PDF document into multiple pages
+This hack will help you to split a single PDF document into multiple pages.
 
-- ### [Data Science Hack #42 Merge PDF Documents](./Code/merge_pdf.ipynb)
-Merge multiple PDF documents into a single PDF
+- ### [Data Science Hack #43 Merge PDF Documents](./Code/merge_pdf.ipynb)
+This hack will help you to combine multiple PDF documents into a single document. This hack is the inverse of [Hack #42 Split PDF Document page-wise](#data-science-hack-42-split-pdf-document-page-wise)
