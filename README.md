@@ -203,4 +203,4 @@ Sometimes you would need a functionality which is not directly provided by Keras
 - ### [Data Science Hack #45 Create live animated plots using matplotlib](./Code/LiveAnimatedPlots_matplotlib.ipynb)
 Helps you plot live animations during a activate cell run. Use case - Visualize the training of a neural network in real time
 
-![](./Data/vid.mp4)
+![](./Data/vid.gif)
