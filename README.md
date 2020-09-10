@@ -199,3 +199,6 @@ Sometimes you would need a functionality which is not directly provided by Keras
 (i.e. a neural network which takes input from multiple data sources, and does a combined training on this data), and you want that the data generator should be able to handle the data preparation on the fly, you can create a wrapper around ImageDataGenerator class to give the required output.[This notebook](./Code/CustomDataGen_Keras.ipynb) explains a simple solution to this usecase. 
 
 2. Another use case could be that you want to resize the images from a shape say 150x150 to a shape 224x224, which is generally utilized by the pretrained models, you can customize the ImageDataGenerator without coding your own data generator from ground up [(Example Notebook)](https://github.com/faizankshaikh/AV_Article_Codes/blob/master/Inception_From_Scratch/improvements/Inception_v1_from_Scratch.ipynb).
+
+- ### [Data Science Hack #45 Merging All CSV Files in a Directory into a Single CSV File Containing All Data](./Code/merge_csv_files.ipynb)
+Sometimes our data isn't compiled into a single csv. To make analysis easier, transporting all data into one file is a must. Follow the link to see the simple procedure.
